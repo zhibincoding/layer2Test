@@ -49,7 +49,7 @@ We build a table show the result.
 
 Most of the failed casees caused by `SELFDESTRUCT`,`PREVRANDAO`(DIFFICULTY).
 
-folder|total|success|fail|known|rate
+folder|total|pass|total fail|fail with known cause|pass ratio
 |--|--|--|--|--|--|
 | vmArithmeticTest | 62 | 60 | 1 | 1 | 98.36%
 | stArgsZeroOneBalance | 45 | 44 | 0 | 1 | 100.00%
@@ -144,7 +144,7 @@ cd ..
 sh ./runtest.sh optimism ./op-geth/build/bin/evm
 ```
 
-folder|total|success|fail|known|rate
+folder|pass|success|total fail|fail with known cause| pass ratio
 |--|--|--|--|--|--|
 | vmArithmeticTest | 64 | 64 | 0 | 0 | 100.00%
 | stArgsZeroOneBalance | 46 | 46 | 0 | 0 | 100.00%
